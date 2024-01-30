@@ -19,12 +19,10 @@ import {
   Layout,
   Fit,
   Alignment,
-  RiveProps,
 } from "rive-react";
 import styles from "@/styles/styles.module.css";
 import "@/styles/LoginFormComponent.css";
 import Confetti from "@/components/Confetti";
-import Link from "next/link";
 
 export default function Page({ params }: { params: { name: string } }) {
   const name = params.name;

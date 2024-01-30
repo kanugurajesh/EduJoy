@@ -40,7 +40,7 @@ export default function RootLayout({
                     height={35}
                     className="mr-[0.8px]"
                   />
-                  <h1 className="text-xl">earnForge</h1>
+                  <h1 className="text-xl">duJoy</h1>
                 </Link>
               </div>
 

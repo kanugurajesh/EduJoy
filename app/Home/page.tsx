@@ -26,7 +26,7 @@ export default function Home() {
           <Link href="/Chat" className={styles.navlist}>
             Chat
           </Link>
-          <Link href="/ImageRekog" className={styles.navlist}>
+          <Link href="/Rekog" className={styles.navlist}>
             Rekog
           </Link>
           <UserButton />
