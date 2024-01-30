@@ -20,23 +20,19 @@ export default function Home() {
           <Link href="/Imagen" className={styles.navlist}>
             Imagen
           </Link>
-          <Link href="/Chat" className={styles.navlist}>
+          <Link href="/QA" className={styles.navlist}>
             Q/A
           </Link>
-          <Link
-            href="/Home"
-            className={styles.navlist}
-            onClick={() => toast.success("select a logo to begin the course")}
-          >
+          <Link href="/Chat" className={styles.navlist}>
             Chat
           </Link>
-          <Link
-            href="https://kanugurajesh.github.io"
-            className={styles.navlist}
-          >
-            SwapAi
+          <Link href="/ImageRekog" className={styles.navlist}>
+            Rekog
           </Link>
-          <UserButton afterSignOutUrl="/">Sign out</UserButton>
+          <UserButton />
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <Link href="/Contact">Contact Us</Link>
+          </button>
         </div>
       </div>
       <div className={`${styles.herosection} mt-20`}>
