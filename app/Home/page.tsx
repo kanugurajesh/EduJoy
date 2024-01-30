@@ -52,7 +52,7 @@ export default function Home() {
           </div>
         </div>
         <div
-          className={cn(`flex flex-wrap w-[500px] gap-6 p-2 ${styles.heroimg}`)}
+          className={cn(`flex flex-wrap w-[600px] gap-6 p-3 ml-5 ${styles.heroimg}`)}
         >
           <Link href="/Courses/html5">
             <Image
