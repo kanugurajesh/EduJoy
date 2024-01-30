@@ -3,14 +3,13 @@
     flex-direction: column;
 }
 
-
 .logobar {
     display: flex;
     align-items: center;
-    gap: 3px;
 }
 
 .logoText {
+    margin-left: -4px;
     font-size: 1.5rem;
     font-weight: 600;
     color: rgb(74, 71, 62);
@@ -33,7 +32,7 @@
 
 .navitems {
     display: flex;
-    gap: 70px;
+    gap: 40px;
     padding: 0 4rem;
 }
 
