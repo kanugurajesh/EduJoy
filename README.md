@@ -66,6 +66,12 @@ I have added the following AI Powered resources in the application to provide pr
   </tr>
 </table>
 
+## Demo
+
+<a href="https://youtu.be/q_nzkZAoglk">
+  <img src="https://github.com/kanugurajesh/EduJoy/assets/77529419/843b1e18-efe8-4cab-8e9e-7e468b7d3c96" alt="gamified lms demo" width=150 height=150>
+</a>
+
 ## Contribution Guidelines
 
 We welcome contributions to enhance and improve the llm app. If you have ideas or improvements, feel free to submit a pull request following our contribution guidelines.
