@@ -69,7 +69,7 @@ I have added the following AI Powered resources in the application to provide pr
 ## Demo
 
 <a href="https://youtu.be/q_nzkZAoglk">
-  <img src="https://github.com/kanugurajesh/EduJoy/assets/77529419/843b1e18-efe8-4cab-8e9e-7e468b7d3c96" alt="gamified lms demo" width=150 height=150>
+  <img src="https://github.com/kanugurajesh/EduJoy/assets/77529419/843b1e18-efe8-4cab-8e9e-7e468b7d3c96" alt="gamified lms demo" width=500 height=500>
 </a>
 
 ## Contribution Guidelines
