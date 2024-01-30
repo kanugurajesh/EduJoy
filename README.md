@@ -21,7 +21,7 @@ Even thought some students overcome the above obstacle many do not get proper te
 
 The root of the problem lies not solely in the students but also in the environment and conditions they navigate. Instead of condemning their inclinations, what if we could redirect the same dopamine surge towards education? Introducing EduJoy, a gamified Learning Management System (LMS) that transforms the learning experience into a captivating game with interactive elements, rewarding systems, and a touch of Learning Love Magic (LLM).
 
-I have added the following AI Powered resources in the application to provide :- 
+I have added the following AI Powered resources in the application to provide proper teaching resources :- 
 - <b>Imagen</b> :- Many students love to see the images of the things they are learning and this tool can help them materialize their need
 - <b>QA</b> :- This is an Question Answering application which solves the doubts of the students It is powered with gemini pro and it will try it's best to answer the question.
 - <b>Chat</b> :- This is a personalized chat application which the helps the model to mimic the converstation with the teacher.
@@ -65,3 +65,43 @@ I have added the following AI Powered resources in the application to provide :-
     <td valign="top"><img src="https://github.com/kanugurajesh/EduJoy/assets/77529419/9a3eade5-bfad-4096-9b15-275cf77b27b5" alt="kanugu rajesh" width=300 height=300></td>
   </tr>
 </table>
+
+## Contribution Guidelines
+
+We welcome contributions to enhance and improve the llm app. If you have ideas or improvements, feel free to submit a pull request following our contribution guidelines.
+
+## Feedback and Issues
+
+If you encounter any issues or have feedback, please open an issue on our [GitHub repository](https://github.com/kanugurajesh/Student-LMS/issues). We appreciate your input and strive to make our system better with each update.
+
+## Tech Stack
+
+- Next.js
+- Tailwindcss
+- Gemini Pro
+- Gemini Pro Vision
+- Rive
+- Typescript
+- API
+- Replicate
+- Markdown
+- Vercel
+- Stable Diffusion
+- Resend
+- Giphy
+- React
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://rajeshportfolio.me/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rajesh-kanugu-aba8a3254/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/exploringengin1)
+  
+## Authors
+
+- [@kanugurajesh](https://github.com/kanugurajesh)
+
+## Support
+
+For support, you can buy me a coffee
+
+<a href="https://www.buymeacoffee.com/kanugurajen" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
