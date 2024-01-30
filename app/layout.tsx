@@ -6,8 +6,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Student LMS',
-  description: 'A platform to recommend personalised learning paths to students',
+  title: 'EduJoy',
+  description: 'Making learning fun + Help in learning through GenAi',
 }
 
 export default function RootLayout({
