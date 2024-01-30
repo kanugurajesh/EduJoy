@@ -57,21 +57,21 @@ export default function HomeLayout({
                 </Link>
               </li>
               <li>
-                <Link href="/Imagine" className={`${styles.a}`}>
-                  Imagine
+                <Link href="/QA" className={`${styles.a}`}>
+                  Q/A
                 </Link>
               </li>
               <li>
                 <Link href="/Chat" className={`${styles.a}`}>
-                  Doubt
+                  Chat
                 </Link>
               </li>
               <li>
                 <Link
-                  href="https://kanugurajesh.github.io"
+                  href="/Rekog"
                   className={`${styles.a}`}
                 >
-                  Blog
+                  Rekog
                 </Link>
               </li>
             </ul>
@@ -82,7 +82,6 @@ export default function HomeLayout({
           </div>
         </div>
       </nav>
-      {/* {window.innerWidth > 750 || !showMenu ? children : ''} */}
       {!showMenu ? children : ""}
     </div>
   );
