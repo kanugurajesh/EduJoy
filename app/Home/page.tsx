@@ -6,6 +6,7 @@ import styles from "@/styles/home.module.css";
 import { cn } from "@/lib/utils";
 import { UserButton } from "@clerk/nextjs";
 import toast, { Toaster } from "react-hot-toast";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function Home() {
   return (
@@ -38,7 +39,17 @@ export default function Home() {
       <div className={`${styles.herosection} mt-20`}>
         <div className={styles.herocontent}>
           <div className={styles.heroheading}>
-            <h1 className={styles.h1}>What is EduJoy</h1>
+            <h1 className={styles.h1}>
+              <Typewriter
+                words={["What is EduJoy", "Gamified LMS", "AI Powered", "Fun to Learn"]}
+                loop={1000}
+                cursor
+                cursorStyle="_"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            </h1>
           </div>
           <div className={styles.wrapper}>
             <p className={`${styles.heroheading} ${styles.p}`}>
@@ -52,7 +63,9 @@ export default function Home() {
           </div>
         </div>
         <div
-          className={cn(`flex flex-wrap w-[600px] gap-6 p-3 ml-5 ${styles.heroimg}`)}
+          className={cn(
+            `flex flex-wrap w-[600px] gap-6 p-3 ml-5 ${styles.heroimg}`
+          )}
         >
           <Link href="/Courses/html5">
             <Image
