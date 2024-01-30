@@ -103,21 +103,20 @@ export default function Home() {
     // get the response from the server
     const data = await response.json();
 
-    setLoading(false)
+    setLoading(false);
 
-    if(data.error) {
+    if (data.error) {
       toast.error(data.error);
       return;
     }
 
-    if(data.text === "") {
+    if (data.text === "") {
       toast.error("No response from the server!");
       return;
     }
 
     // set the response in the state
     setResponse(data.text);
-
   };
 
   useEffect(() => {

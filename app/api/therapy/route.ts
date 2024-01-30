@@ -4,7 +4,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY as string);
 
-const model = genAI.getGenerativeModel({ model: "gemini-pro"});
+const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
 const chat = model.startChat({
   history: [
@@ -24,7 +24,6 @@ const chat = model.startChat({
 });
 
 export async function POST(req: NextRequest) {
-
   // get prompt field from the request body
   const reqBody = await req.json();
 
@@ -46,5 +45,4 @@ export async function POST(req: NextRequest) {
   return NextResponse.json({
     text,
   });
-
 }

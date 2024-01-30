@@ -1,67 +1,89 @@
-"use client"
+"use client";
 
-import { UserButton } from '@clerk/nextjs'
-import Image from 'next/image'
-import styles from '@/styles/Root.module.css'
-import Link from 'next/link'
-import { useState } from 'react'
+import { UserButton } from "@clerk/nextjs";
+import Image from "next/image";
+import styles from "@/styles/Root.module.css";
+import Link from "next/link";
+import { useState } from "react";
 
-import { ThemeProvider } from '@/components/theme-provider'
-import ModeToggle from '@/components/color-toggle'
+import { ThemeProvider } from "@/components/theme-provider";
+import ModeToggle from "@/components/color-toggle";
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
-
-  const [showMenu, setShowMenu] = useState(false)
+  const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
-    setShowMenu(!showMenu)
-  }
+    setShowMenu(!showMenu);
+  };
 
   return (
     <main>
       <ThemeProvider
-        attribute='class'
-        defaultTheme='light'
+        attribute="class"
+        defaultTheme="light"
         enableSystem
         disableTransitionOnChange
       >
-        <div className={`${showMenu ? "overflow-hidden h-screen" : ''}`}>
-          <nav className='relative'>
-            <div className='flex p-10 items-center justify-between font-bold'>
-              <div className='flex items-center gap-3'>
-                <Link href="/" className='flex items-center '>
-                  <Image src="/logo.png" alt="Logo" width={35} height={35} className='mr-[0.8px]' />
-                  <h1 className='text-xl'>earnForge</h1>
+        <div className={`${showMenu ? "overflow-hidden h-screen" : ""}`}>
+          <nav className="relative">
+            <div className="flex p-10 items-center justify-between font-bold">
+              <div className="flex items-center gap-3">
+                <Link href="/" className="flex items-center ">
+                  <Image
+                    src="/logo.png"
+                    alt="Logo"
+                    width={35}
+                    height={35}
+                    className="mr-[0.8px]"
+                  />
+                  <h1 className="text-xl">earnForge</h1>
                 </Link>
               </div>
 
-              <div className={`flex flex-col gap-1 transition-all ease-in-out duration-300 ${styles.menu} ${showMenu ? styles.click : ''}`} onClick={toggleMenu}>
+              <div
+                className={`flex flex-col gap-1 transition-all ease-in-out duration-300 ${
+                  styles.menu
+                } ${showMenu ? styles.click : ""}`}
+                onClick={toggleMenu}
+              >
                 <div className={`w-8 h-1 bg-black ${styles.menuli}`}></div>
                 <div className={`w-8 h-1 bg-black ${styles.menuli}`}></div>
                 <div className={`w-8 h-1 bg-black ${styles.menuli}`}></div>
               </div>
 
-              <div className={`flex gap-8 items-center ${styles.menubar} ${showMenu ? styles.click : ''}`}>
-                <ul className='flex gap-5'>
+              <div
+                className={`flex gap-8 items-center ${styles.menubar} ${
+                  showMenu ? styles.click : ""
+                }`}
+              >
+                <ul className="flex gap-5">
                   <li>
-                    <Link href="/Home" className={`${styles.a}`}>Home</Link>
+                    <Link href="/Home" className={`${styles.a}`}>
+                      Home
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/Imagine" className={`${styles.a}`}>Imagine</Link>
+                    <Link href="/Imagen" className={`${styles.a}`}>
+                      Imagen
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/Chat" className={`${styles.a}`}>Doubt</Link>
+                    <Link href="/Chat" className={`${styles.a}`}>
+                      Chat
+                    </Link>
                   </li>
                   <li>
-                    <Link href="https://kanugurajesh.github.io" className={`${styles.a}`}>Blog</Link>
+                    <Link href="/Rekog" className={`${styles.a}`}>
+                      Rekog
+                    </Link>
                   </li>
                 </ul>
                 <UserButton />
-                <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                   <Link href="/Contact">Contact Us</Link>
                 </button>
               </div>
@@ -74,9 +96,11 @@ export default function RootLayout({
               </div>
               {children}
             </>
-          ) : ''}
+          ) : (
+            ""
+          )}
         </div>
       </ThemeProvider>
     </main>
-  )
+  );
 }

@@ -39,7 +39,6 @@ export default function Contact() {
   const handleSubmit = async () => {
     if (validateForm()) {
       try {
-
         setLoading(true);
 
         const response = await fetch("/api/contact", {
@@ -63,8 +62,7 @@ export default function Contact() {
           return;
         }
 
-        toast.success("Message sent successfully")
-
+        toast.success("Message sent successfully");
       } catch (error) {
         toast.error("Something went wrong please try again later");
       }
