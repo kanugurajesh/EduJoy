@@ -22,7 +22,7 @@ export default function HomeLayout({
       <nav className="relative">
         <div className="flex p-10 items-center justify-between font-bold">
           <div className="flex items-center gap-3">
-            <Link href="/" className="flex items-center ">
+            <Link href="/Home" className="flex items-center ">
               <Image
                 src="/logo.png"
                 alt="Logo"
@@ -52,26 +52,23 @@ export default function HomeLayout({
           >
             <ul className="flex gap-5">
               <li>
-                <Link href="/Home" className={`${styles.a}`}>
-                  Home
+                <Link href="/Imagen" className={`${styles.a}`}>
+                  Imagen
                 </Link>
               </li>
               <li>
-                <Link href="/Imagine" className={`${styles.a}`}>
-                  Imagine
+                <Link href="/QA" className={`${styles.a}`}>
+                  Q/A
                 </Link>
               </li>
               <li>
                 <Link href="/Chat" className={`${styles.a}`}>
-                  Doubt
+                  Chat
                 </Link>
               </li>
               <li>
-                <Link
-                  href="https://kanugurajesh.github.io"
-                  className={`${styles.a}`}
-                >
-                  Blog
+                <Link href="/Rekog" className={`${styles.a}`}>
+                  Rekog
                 </Link>
               </li>
             </ul>
@@ -82,7 +79,6 @@ export default function HomeLayout({
           </div>
         </div>
       </nav>
-      {/* {window.innerWidth > 750 || !showMenu ? children : ''} */}
       {!showMenu ? children : ""}
     </div>
   );

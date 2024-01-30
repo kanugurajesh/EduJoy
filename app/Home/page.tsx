@@ -12,7 +12,7 @@ export default function Home() {
     <div className={styles.container}>
       <Toaster />
       <div className={styles.navbar}>
-        <Link href={""} className={styles.logobar}>
+        <Link href={"/Home"} className={styles.logobar}>
           <Image src="/logo.png" width={40} height={40} alt="logo" />
           <div className={styles.logoText}>duJoy</div>
         </Link>
