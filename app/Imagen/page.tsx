@@ -12,10 +12,9 @@ import { BeatLoader } from "react-spinners";
 
 export default function Home() {
   // state for the prompt, response and output
-  const [prompt, setPrompt] = useState("");
-  const [response, setResponse] = useState("");
-  const [output, setOutput] = useState("");
-  const [loading, setLoading] = useState(true);
+  const [prompt, setPrompt] = useState<string>("");
+  const [response, setResponse] = useState<string>("");
+  const [loading, setLoading] = useState<boolean>(false);
 
   const onKeyDown = (e: any) => {
     // Check if the Ctrl key is pressed along with the Enter key
@@ -57,9 +56,6 @@ export default function Home() {
       return;
     }
 
-    // clear the output
-    setOutput("");
-
     // set the loading state to true
     setLoading(true);
 
@@ -84,13 +80,13 @@ export default function Home() {
       return;
     }
 
-    if (data.text === "") {
+    if (data.imageURl === "") {
       toast.error("No response from the server!");
       return;
     }
 
     // set the response in the state
-    setResponse(data.text);
+    setResponse(data.imageURl);
   };
 
   return (
@@ -145,25 +141,15 @@ export default function Home() {
           <Upload className={cn("w-[20px]")} />
         </Button>
       </div>
-      {/* @ts-ignore */}
-
       {loading ? (
         <iframe
           src="https://giphy.com/embed/4EFt4UAegpqTy3nVce"
           width="480"
           height="480"
-        //   class="giphy-embed"
           style={{ zIndex: -1, width: "400px", height: "400px" }}
         ></iframe>
       ) : (
-        <Image
-          src={
-            "https://ik.imagekit.io/hbzknb1hm/teaching.png?updatedAt=1706009992970"
-          }
-          width={200}
-          height={200}
-          alt="Image"
-        />
+        <Image src={response} width={200} height={200} alt="Image" />
       )}
     </main>
   );

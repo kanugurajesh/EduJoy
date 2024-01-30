@@ -39,5 +39,7 @@ export const POST = async (request: NextRequest) => {
   // @ts-ignore
   const imageURl = imageGeneration[0];
 
+  console.log(imageURl);
+
   return NextResponse.json({ imageURl: imageURl }, { status: 200 });
 };
