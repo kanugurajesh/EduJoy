@@ -7,7 +7,7 @@
 .logobar {
     display: flex;
     align-items: center;
-    gap: 0px;
+    gap: 3px;
 }
 
 .logoText {
@@ -33,7 +33,7 @@
 
 .navitems {
     display: flex;
-    gap: 30px;
+    gap: 70px;
     padding: 0 4rem;
 }
 
