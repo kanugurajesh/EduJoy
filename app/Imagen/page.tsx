@@ -13,6 +13,7 @@ import { BeatLoader } from "react-spinners";
 export default function Home() {
   // state for the prompt, response and output
   const [prompt, setPrompt] = useState<string>("");
+  const [send, setSend] = useState<boolean>(false);
   const [response, setResponse] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
 
@@ -58,6 +59,7 @@ export default function Home() {
 
     // set the loading state to true
     setLoading(true);
+    setSend(true);
 
     // create a post request to the /api/chat endpoint
     const response = await fetch("api/generate", {
@@ -149,7 +151,11 @@ export default function Home() {
           style={{ zIndex: -1, width: "400px", height: "400px" }}
         ></iframe>
       ) : (
-        <Image src={response} width={200} height={200} alt="Image" />
+        <>
+          {response && (
+            <Image src={response} width={400} height={400} alt="Image" />
+          )}
+        </>
       )}
     </main>
   );
