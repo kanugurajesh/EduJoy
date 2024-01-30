@@ -8,6 +8,14 @@
 
 EduJoy is an gamified student learning management system which aims to make learning fun and easy with help of interactive elements, gamification and generative ai.
 
+## Problem Statement
+
+Students generally are not inclined towards and are more inclined towards games and other activities which can ruin their career. Even though students wants to concentrate on studies they cannot because their brain does not produces enough dopamine in comparision to games due which students can live this bad habits even though they want to. Due to such activities children are subjected scoldings by both parents, neighbours and teachers and sometimes they may be treated with violence.
+
+## Solution Statement
+
+Many people fail to understand that it is not completely the problem of students it is their environment and conditions they are subjected which determines their inclinations. Many students cannot come out of the dopamine trap and spoil their own careers but have you even thought why can't we use the same dopminie in education such that it get's released when students learn. I have thought of it and this is my solution for the problem. EduJoy is an gamified learning management system which makes learning as fun as gaming with the power of interactive elements, reward systems and LLM.
+
 ## Screenshots
 
 <table>
