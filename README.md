@@ -4,17 +4,27 @@
   <img src="https://github.com/kanugurajesh/EduJoy/assets/77529419/62dd0b07-f95b-4d19-8221-bf65bc3cace6" alt="gamified education platform powered with ai" width=150 height=150>
 </div>
 
-# EduJoy
+<div align=center>
+  <h1>EduJoy</h1>
+  <br>
+</div>
 
 EduJoy is an gamified student learning management system which aims to make learning fun and easy with help of interactive elements, gamification and generative ai.
 
-## Problem Statement
+## Problem Statement 🎓🕹️
 
-Students generally are not inclined towards and are more inclined towards games and other activities which can ruin their career. Even though students wants to concentrate on studies they cannot because their brain does not produces enough dopamine in comparision to games due which students can live this bad habits even though they want to. Due to such activities children are subjected scoldings by both parents, neighbours and teachers and sometimes they may be treated with violence.
+Students often find it challenging to muster enthusiasm for education when they are more drawn to games and other activities that may jeopardize their academic pursuits. Despite their genuine desire to focus on studies, students sometimes struggle due to a lack of dopamine production in comparison to the excitement derived from gaming. This can lead them down a path of unhealthy habits, resulting in admonishment from parents, neighbors, and teachers, and in extreme cases, even facing violence.
 
-## Solution Statement
+## Solution Statement 🚀🧠
 
-Many people fail to understand that it is not completely the problem of students it is their environment and conditions they are subjected which determines their inclinations. Many students cannot come out of the dopamine trap and spoil their own careers but have you even thought why can't we use the same dopminie in education such that it get's released when students learn. I have thought of it and this is my solution for the problem. EduJoy is an gamified learning management system which makes learning as fun as gaming with the power of interactive elements, reward systems and LLM.
+The root of the problem lies not solely in the students but also in the environment and conditions they navigate. Instead of condemning their inclinations, what if we could redirect the same dopamine surge towards education? Introducing EduJoy, a gamified Learning Management System (LMS) that transforms the learning experience into a captivating game with interactive elements, rewarding systems, and a touch of Learning Love Magic (LLM).
+
+## Features 🌟
+
+- Interactive Learning Modules
+- Rewarding System to Boost Motivation
+- Learning Love Magic (LLM) Integration
+- User-Friendly Interface
 
 ## Screenshots
 
