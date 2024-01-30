@@ -88,7 +88,7 @@ We welcome contributions to enhance and improve the llm app. If you have ideas o
 
 ## Feedback and Issues
 
-If you encounter any issues or have feedback, please open an issue on our [GitHub repository](https://github.com/kanugurajesh/Student-LMS/issues). We appreciate your input and strive to make our system better with each update.
+If you encounter any issues or have feedback, please open an issue on our [GitHub repository](https://github.com/kanugurajesh/Student-GLMS/issues). We appreciate your input and strive to make our system better with each update.
 
 ## Tech Stack
 
@@ -102,12 +102,3 @@ If you encounter any issues or have feedback, please open an issue on our [GitHu
 ## Authors
 
 - [@kanugurajesh](https://github.com/kanugurajesh)
-
-## My Certificates
-
-![Screenshot 2024-01-23 182116](https://github.com/kanugurajesh/Student-LMS/assets/77529419/282a2941-4ff2-4216-a419-86fbf72a803e)
-
-[My Certificate.pdf](https://github.com/kanugurajesh/Student-LMS/files/13929166/Kanugu.Rajesh.2.pdf)
-
-### More Details
-<b>docosauras documentation :-</b> https://shra1v32.github.io/docusaurus-blogger/docs/GraphifyEd/intro
