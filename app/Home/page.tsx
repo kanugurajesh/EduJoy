@@ -14,21 +14,21 @@ export default function Home() {
             <Toaster />
             <div className={styles.navbar}>
                 <div className={styles.logobar}>
-                    <Image src="/logo.png" width={30} height={30} alt="logo" />
-                    <div className={styles.logoText}>raphifyEd</div>
+                    <Image src="/logo.png" width={40} height={40} alt="logo" />
+                    <div className={styles.logoText}>duJoy</div>
                 </div>
                 <div className={`${styles.navitems}`}>
                     <Link href="/Imagen" className={styles.navlist}>
                         Imagen
                     </Link>
                     <Link href="/Chat" className={styles.navlist}>
-                        Chat
+                        Q/A
                     </Link>
                     <Link href="/Home" className={styles.navlist} onClick={() => toast.success("select a logo to begin the course")}>
-                        Courses
+                        Chat
                     </Link>
                     <Link href="https://kanugurajesh.github.io" className={styles.navlist}>
-                        Blog
+                        SwapAi
                     </Link>
                     <UserButton afterSignOutUrl="/">
                         Sign out
@@ -37,12 +37,11 @@ export default function Home() {
             </div>
             <div className={`${styles.herosection} mt-20`}>
                 <div className={styles.herocontent}>
-                    <div className={styles.heroheading}><h1 className={styles.h1}>What is GraphifyEd</h1>
-
+                    <div className={styles.heroheading}><h1 className={styles.h1}>What is EduJoy</h1>
                     </div>
                     <div className={styles.wrapper}>
                         <p className={`${styles.heroheading} ${styles.p}`}>
-                            GraphifyEd is a unique student learning management system which aims at making learning as addictive as gaming. Start your journey with GraphifyEd and earn points, badges and rewards as you learn.
+                        EduJoy is a platform where you can learn the latest technologies in the industry. It makes learning as fun as gaming and it has integrated ai tools to make learning more interactive.
                         </p>
                         <Link href="/Courses/html5">
                             <button className={styles.btnpink}>Select Logo and Learn</button>

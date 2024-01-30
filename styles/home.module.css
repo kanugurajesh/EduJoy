@@ -7,7 +7,7 @@
 .logobar {
     display: flex;
     align-items: center;
-    gap: 3px;
+    gap: 0px;
 }
 
 .logoText {
