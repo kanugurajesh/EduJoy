@@ -117,7 +117,7 @@ export default function Home() {
       <Link href="/">
         <div className="flex gap-2 items-center font-bold">
           <Image src="/chat.svg" alt="logo" width={30} height={30} />
-          <h1 className="text-2xl">LearnForge</h1>
+          <h1 className="text-2xl">EduJoy</h1>
         </div>
       </Link>
       <div className={`flex flex-col mt-2 ${styles.chatHistory}`} ref={chatContainerRef}>

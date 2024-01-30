@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
         const data = await resend.emails.send({
             from: 'Acme <onboarding@resend.dev>',
             to: process.env.PERSONAL_EMAIL as string,
-            subject: 'Message from LearnForge',
+            subject: 'Message from EduJoy',
             react: ContactEmailTemplate({ name:name, email: email, message: message }),
         });
 
