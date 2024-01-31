@@ -49,7 +49,7 @@ I have added the following AI Powered resources in the application to provide pr
   </tr>
   <tr>
     <td valign="top"><img src="https://github.com/kanugurajesh/EduJoy/assets/77529419/0fd631b0-5f4d-49c0-a1de-2bcd24485c56" alt="kanugu rajesh" width=300 height=300></td>
-    <td valign="top"><img src="https://github.com/kanugurajesh/EduJoy/assets/77529419/96507564-0b67-4bab-a9ad-f1f3b7d8d799" alt="kanugu rajesh" width=300 height=300></td>
+    <td valign="top"><img src="https://github.com/kanugurajesh/EduJoy/assets/77529419/b9c6aad7-08b0-45bc-886e-2b991cbbcffb" alt="kanugu rajesh" width=300 height=300></td>
     <td valign="top"><img src="https://github.com/kanugurajesh/EduJoy/assets/77529419/e073b0df-3584-4c3a-8745-e3113e77dba6" alt="kanugu rajesh" width=300 height=300></td>
   </tr>
   <tr>
